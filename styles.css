@@ -10,17 +10,18 @@ body {
 .game-area {
     width: 700px;
     height: 500px;
-    background-color: white;
+    background-color: black;
     position: relative;
 }
 
 .ball {
-    background-color: green;
+    background-color: red;
     height: 20px;
     width: 20px;
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 15px;
 }
 
 .paddle {
@@ -28,7 +29,7 @@ body {
     height: 100px;
     top: 100px;
     position: absolute;
-    background-color: black;
+    background-color: white;
 }
 
 .player-paddle {
